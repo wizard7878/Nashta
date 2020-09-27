@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'vazir';
+    src: url(../font/Vazir.ttf);
+}
+
+
+body{
+    font-family: 'vazir';
+}
+
+
+.image{
+    background-image: url('../img/Rectangle 63.png');
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 100;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.caption{
+    color: orange;
+    background: rgb(77, 77, 77);
+    margin-top: 70px;
+
+}
+
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #F4511E;
+    border-color: #E64A19;
+}
+
+
+.page-item a{
+    color: black;
+}
