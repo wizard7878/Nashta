@@ -84,3 +84,13 @@ body{
   .card{
       cursor: pointer;
   }
+
+
+
+  .carousel-caption{
+  margin-right: -15%;
+  margin-bottom: -3%;
+  opacity: .9;
+  width: 100%;
+  position: absolute;
+}
