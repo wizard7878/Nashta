@@ -83,9 +83,12 @@ body{
 
   .card{
       cursor: pointer;
+      width: 18.5em;
   }
 
-
+.w-img{
+  width: 15em;
+}
 
   .carousel-caption{
   margin-right: -15%;
@@ -93,4 +96,40 @@ body{
   opacity: .9;
   width: 100%;
   position: absolute;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: rgb(235, 22, 22) !important;
+}
+
+.space-download-icons{
+  margin-top: 10em;
+}
+.collapsing .social{
+  display: none;
+}
+.collapse.show .social{
+  display: none
+}
+
+
+.collapsing .authentication{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.collapse.show .authentication{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+
+.row_edit{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
 }
