@@ -6,10 +6,11 @@
 
 body{
     font-family: 'vazir';
+    overflow-x: hidden;
 }
 
 
-.image{
+/* .image{
     background-image: url('../img/Rectangle 63.png');
     width: 100%;
     height: 100%;
@@ -22,22 +23,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-}
-
+} */
+/* 
 .caption{
     color: orange;
     background: rgb(77, 77, 77);
     margin-top: 70px;
 
-}
+} */
 
 
-.page-item.active .page-link {
+/* .page-item.active .page-link {
     z-index: 1;
     color: #fff;
     background-color: #F4511E;
     border-color: #E64A19;
-}
+} */
 
 
 .page-item a{
@@ -86,9 +87,9 @@ body{
       width: 18.5em;
   }
 
-.w-img{
+/* .w-img{
   width: 15em;
-}
+} */
 
   .carousel-caption{
   margin-right: -15%;
@@ -132,4 +133,20 @@ body{
     margin-right: -15px;
     margin-left: -15px;
     justify-content: center;
+}
+
+
+
+.slider_icons:focus{
+  opacity: .6;
+}
+
+
+.slider_icons:hover{
+  opacity: .9;
+}
+
+
+.slider_icons{
+  opacity: .6;
 }
